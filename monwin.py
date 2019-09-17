@@ -310,10 +310,10 @@ def get_dwells(dot):
             else:
                 raise ValueError("Something weird")
 
-        # update dwell dictionary and record the dwell if 'MANVR'
+        # update dwell dictionary and record the dwell if 'MANVR' 
             
         if dd['name'] == 'OBSID':
-            dwell['obsid'] = params['ID']
+            dwell['obsid'] = params['ID'] 
         elif dd['name'] == 'ACQ':
             dwell.update({'strcat': params})
         elif dd['name'] == 'MANVR':
