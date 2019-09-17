@@ -17,7 +17,7 @@ from datetime import datetime, timedelta
 
 
 __all__ = ['get_dwells', 'monitor_window_stats', 'scheduler',
-           'dwells_test', 'stars_test', 'monwin_test']
+           'dwells_test', 'stars_test']
 
 
 # file containing coordinates of predefined locations,
