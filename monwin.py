@@ -22,7 +22,7 @@ __all__ = ['get_dwells', 'monitor_window_stats', 'scheduler',
 
 # file containing coordinates of predefined locations,
 # expected to be found in the working directory
-PREDEFINED = "predefined_locations.txt"
+PREDEFINED =   "predefined_locations.txt"
 
 
 def add_delta(date, *args):
